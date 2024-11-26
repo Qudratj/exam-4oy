@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyTeam</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body class="bg-teal-900 text-white">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6">
+    <h1 class="text-2xl font-bold">myteam</h1>
+    <ul class="flex space-x-6">
+      <li><a href="#about" class="hover:underline">home</a></li>
+      <li><a href="#about" class="hover:underline">about</a></li>
+      <li>
+        <a href="#contact" class="px-4 py-2 border border-white rounded-full hover:bg-white hover:text-teal-900">
+          contact us
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-6">About</h2>
+    <p class="text-lg">
+      We help companies build dynamic teams made up of top global talent. Using our network of passionate professionals, 
+      we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the best products and experiences. 
+      We’ll bring those teams to you.
+    </p>
+  </section>
+
+  <!-- Meet the Directors -->
+  <section class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-6">Meet the directors</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Director Card -->
+      <div class="bg-teal-800 p-6 rounded-md text-center">
+        <div class="w-24 h-24 mx-auto rounded-full bg-gray-300"><img src="./Oval.png" alt=""></div>
+        <h3 class="text-xl font-bold mt-4">Nikita Marks</h3>
+        <p>Founder & CEO</p>
+        <button class="mt-4 text-black bg-[#F67E7E] px-4 py-2 rounded-full hover:bg-pink-700">+</button>
+      </div>
+      <div class="bg-teal-800 p-6 rounded-md text-center">
+        <div class="w-24 h-24 mx-auto rounded-full bg-gray-300"><img src="./Oval (1).png" alt=""></div>
+        <h3 class="text-xl font-bold mt-4">Cristian Duncan</h3>
+        <p>Co-Founder & COO</p>
+        <button class="mt-4 text-black bg-[#F67E7E] px-4 py-2 rounded-full hover:bg-pink-700">+</button>
+      </div>
+      <div class="bg-teal-800 p-6 rounded-md text-center">
+        <div class="w-24 h-24 mx-auto rounded-full bg-gray-300"><img src="./Oval (2).png" alt=""></div>
+        <h3 class="text-xl font-bold mt-4">Cruz Hamer</h3>
+        <p>Co-Founder & CTO</p>
+        <button class="mt-4 text-black bg-[#F67E7E] px-4 py-2 rounded-full hover:bg-pink-700">+</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section class="px-6 py-12 bg-teal-800">
+    <h2 class="text-2xl font-bold mb-6 text-center">Some of our clients</h2>
+    <div class="gap-9 flex justify-center space-x-6 text-gray-300">
+      <img class="h-6 w-[190px]" src="./Bitmap.png" alt="">
+      <img class="h-6 w-[190px]" src="./Bitmap (1).png" alt="">
+      <img class="h-6 w-[190px]" src="./Bitmap (2).png" alt="">
+      <img class="h-6 w-[190px]" src="./Bitmap (3).png" alt="">
+      <img class="h-6 w-[190px]" src="./Bitmap (4).png" alt="">
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="contact" class="px-6 py-12 bg-[#F67E7E] text-center text-teal-900">
+    <h2 class="text-2xl font-bold">Ready to get started?</h2>
+    <a href="#"
+      class="inline-block mt-4 px-6 py-3 border border-teal-900 rounded-full bg-white text-teal-900 hover:bg-teal-900 hover:text-white">
+      contact us
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="flex justify-between items-center p-6 bg-teal-900">
+    <!-- Logo -->
+    <h1 class="text-2xl font-bold">myteam</h1>
+
+    <!-- Social Media Icons -->
+    <div class="flex space-x-4 text-white">
+      <!-- Facebook -->
+      <a href="#" aria-label="Facebook" class="hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+          <path d="M22.675 0H1.325C.594 0 0 .593 0 1.326v21.348C0 23.406.594 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.796.715-1.796 1.764v2.313h3.591l-.468 3.622h-3.123V24h6.127c.73 0 1.324-.593 1.324-1.326V1.326C24 .593 23.406 0 22.675 0z" />
+        </svg>
+      </a>
+
+      <!-- Pinterest -->
+      <a href="#" aria-label="Instagram" class="hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+          <path d="M13.83 10.343c-.752-.032 1.49-.959 2.538-2.797C17.604 5.187 17.17 2.7 15.536 2.16c-1.31-.402-3.467.18-4.982 2.235-1.51 2.053-2.003 4.156-1.492 5.586.502 1.402 1.206 1.535 2.073.758.798-.704 1.213-1.524 1.213-2.142 0-.434-.335-.786-.767-.786-.7 0-1.292.808-1.572 1.494-.42.99.22 2.656.8 4.116.172.439.391.803.639 1.082.47.533 1.144.81 1.732.843.363.023.69-.025 1.012-.17.883-.403 1.488-1.235 1.729-2.526.507-2.632-1.71-4.744-4.95-4.502z" />
+        </svg>
+      </a>
+
+      <!-- Twitter -->
+      <a href="#" aria-label="Twitter" class="hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+          <path d="M24 4.557a9.841 9.841 0 01-2.828.775 4.942 4.942 0 002.163-2.724 9.869 9.869 0 01-3.127 1.197 4.92 4.92 0 00-8.38 4.482A13.975 13.975 0 011.671 3.149 4.917 4.917 0 003.195 9.73a4.9 4.9 0 01-2.228-.616c-.053 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084c.626 1.956 2.444 3.378 4.604 3.418A9.877 9.877 0 010 19.54a13.94 13.94 0 007.548 2.209c9.058 0 14.01-7.503 14.01-14.01 0-.214-.004-.427-.014-.637A9.98 9.98 0 0024 4.557z" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>

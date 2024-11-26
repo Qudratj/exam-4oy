@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media (max-width: 950px) {
+    body{
+        width: 800px;
+    }
+}
+@media (max-width: 900px) {
+    body{
+        width: 800px;
+    }
+}
+@media (max-width: 800px) {
+    body{
+        width: 700px;
+    }
+}
+@media (max-width: 700px) {
+    body{
+        width: 800px;
+    }
+}
+@media (max-width: 600px) {
+    body{
+        width: 800px;
+        
+    }
+}
+@media (max-width: 500px) {
+    body{
+        width: 730px;
+    }
+}
+@media (max-width: 400px) {
+    body{
+        width: 430px;
+    }
+}
+@media (max-width: 300px) {
+    body{
+        width: 700px;
+    }
+}
+@media (max-width: 200px) {
+    body{
+        width: 700px;
+    }
+}
+@media (max-width: 100px) {
+    body{
+        width: 700px;
+    }
+}
+@media (max-width: 50px) {
+    body{
+        width: 700px;
+    }
+}
